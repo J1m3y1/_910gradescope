@@ -114,6 +114,12 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineLarge,
             ),
+            const Icon(
+              Icons.mouse,
+              semanticLabel: 'thumbs up',
+              color: Colors.green,
+              size: 48,
+            ),
           ],
         ),
       ),
